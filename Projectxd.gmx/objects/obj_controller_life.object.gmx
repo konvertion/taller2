@@ -61,7 +61,7 @@ if(health &lt;= 0){
       }
       
       if(lives &lt;= 0){
-      game_restart();
+      room_goto(roomGAMEOVER);
       }
 </string>
           </argument>
